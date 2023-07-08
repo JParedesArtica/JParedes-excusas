@@ -19,12 +19,12 @@ let generateExcuse = () => {
     "during my lunch",
     "while I was praying"
   ];
-
+<!-- Acá tiene todo perfecto seria injusto decirle lo contrario -->
   let whoIndex = Math.floor(Math.random() * who.length);
   let actIndex = Math.floor(Math.random() * action.length);
   let whatIndex = Math.floor(Math.random() * what.length);
   let whenIndex = Math.floor(Math.random() * when.length);
-
+<!--bueno se podria ahorrar un poco mas de espacio de codigo si lo pondria en una sola linea -->
   return who[whoIndex].concat(
     " ",
     action[actIndex],
